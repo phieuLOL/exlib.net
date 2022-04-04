@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../CSS/style.css">
+     <title>Exam Library - Khám Phá Và Sẻ Chia Kiến Thức</title>
+</head>
+<body>
+     <div class="menu">
+          <div class="element-menuS">
+               <a href="../index.html" class="element-menu e1">TRANG CHỦ</a>
+               <a href="../BXH.html" class="element-menu e2">XẾP HẠNG</a>
+               <a href="../info.html" class="element-menu e3">THÔNG TIN</a>
+          </div>
+     </div>
+
+<div id="body">
+     <div id="main-body" style="width: 72%; margin: 0 0 20px 0;">
+          <div class="table-content" style="width: 100%;">
+               <div class="title-content">
+                    <div class="item-content">
+                         <ion-icon name="pricetags"></ion-icon>
+                    </div>
+                    <div class="name-content">
+                         Đề 01
+                    </div>
+               </div>
+          </div>
+
+          <div class="table-content" style="width: 100%">
+               <div class="title-content">
+                    <div class="item-content normal">
+                         <ion-icon name="add-circle"></ion-icon>
+                    </div>
+                    <div class="name-content">
+                         Bài 1: Liên Hoàn Nhất
+                    </div>
+               </div>
+
+               <div class="body-content">
+                    <div class="topic">
+                         <h3 class="title">Đề bài</h3>
+                         <div class="text-content">
+                              <p>Nam là một người đam mê với những con số, đặc biệt là số 1. Một ngày nọ cậu tìm được trên exlib.net một bài toán rất hay. Đó là nhân 1 số có n chữ số 1 với chính nó. Tưởng bở Nam bắt tay vào clear ngay bài cỏn con này. Ai ngờ đời không như là mơ, Nam ngồi từ lúc "chiến tranh thế giới lần I" (1914) tới "chiến tranh thế giới lần II" (1939) vẫn chưa xong. Vì vậy cậu đành nhờ các bạn giúp, và hứa sẽ trao 1 phần lãnh thổ nước Mĩ cho ai giải được. Hãy giúp Nam nhé !
+                                   <p class="title">Lưu ý:</p>
+                                   <ul class="Luuy">
+                                        <li class="e-o-l"> Nam không bao giờ nói dối, nên hay yên tâm việc Nam tặng bạn 1 phần lãnh thổ của Mĩ.</li>
+                                   </ul>
+                              </p>
+                         </div>
+                         <h3 class="title">Dữ liệu vào</h3>
+                         <div class="text-content">
+                              <p>Một dòng duy nhất ghi số nguyên n (0 < n < 1000).</p>
+                         </div>
+
+                         <h3 class="title">Dữ liệu ra</h3>
+                         <div class="text-content">
+                              <p>Một dòng duy nhất ghi đáp án.</p>
+                         </div>
+
+                         <h3 class="title">Ví dụ</h3>
+                         <div class="text-content" style="display: flex;">
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('input-box')">
+                                        <div class="name-box">input #1</div>
+                                   </div>
+                                   <div class="in-output-box">5</div>
+                              </div>
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('output-box')">
+                                        <div class="name-box">output #1</div>
+                                   </div>
+                                   <div class="in-output-box">123454321</div>
+                              </div>
+                         </div>
+                         <div class="text-content" style="display: flex;">
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('input-box')">
+                                        <div class="name-box">input #2</div>
+                                   </div>
+                                   <div class="in-output-box">15</div>
+                              </div>
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('output-box')">
+                                        <div class="name-box">output #2</div>
+                                   </div>
+                                   <div class="in-output-box">12345679012345654320987654321</div>
+                              </div>
+                         </div>
+                         <div class="text-content" style="display: flex;">
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('input-box')">
+                                        <div class="name-box">input #3</div>
+                                   </div>
+                                   <div class="in-output-box">100</div>
+                              </div>
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('output-box')">
+                                        <div class="name-box">output #3</div>
+                                   </div>
+                                   <div class="in-output-box">1234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567900987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654321</div>
+                              </div>
+                         </div>
+                         <div class="text-content" style="display: flex;">
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('input-box')">
+                                        <div class="name-box">input #4</div>
+                                   </div>
+                                   <div class="in-output-box">1000</div>
+                              </div>
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('output-box')">
+                                        <div class="name-box">output #4</div>
+                                   </div>
+                                   <div class="in-output-box">1234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567901234567900987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654320987654321</div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="table-content" style="width: 100%">
+               <div class="title-content">
+                    <div class="item-content easy">
+                         <ion-icon name="add-circle"></ion-icon>
+                    </div>
+                    <div class="name-content">
+                         Bài 2: Ôn Thi Cấp 3
+                    </div>
+               </div>
+          
+               <div class="body-content">
+                    <div class="topic">
+                         <h3 class="title">Đề bài</h3>
+                         <div class="text-content">
+                              <p>
+                                   Hiếu là một người đam mê lập trình, cậu rất thích code và làm web. Nhưng năm nay là năm cuối cấp 2, vì vây Hiếu không thể cứ code mãi được, cậu phải ôn thi cấp 3. Nhưng các hảo hán có câu: "tuổi trẻ ta hết mình vì đam mê", Hiếu không thể bỏ được niềm đam mê lập trình. Để vừa có thể ôn thi cấp 3 vừa có thể lập trình Hiếu đang ngồi tìm ra cách sắp xếp thời khóa biểu thật hợp lý.
+                              </p>
+                         </div>
+                         <div class="text-content">
+                              <p>
+                                   Năm nay Tỉnh của Hiếu thi cấp 3 với 5 môn: Toán, Văn, Anh, Lý, Sử, nhưng vì Hiếu muốn thi vào chuyên Tin, nên cậu đã tự thêm cho mình môn thứ 6 đó là: Toán chuyên. Cậu sắp xếp thời gian học các môn như sau:
+                              </p>
+                              <ul class="Luuy">
+                                   <li class="e-o-l">Toán chuyên: a phút.</li>
+                                   <li class="e-o-l">Toán: b phút.</li>
+                                   <li class="e-o-l">Văn: c phút.</li>
+                                   <li class="e-o-l">Anh: d phút.</li>
+                                   <li class="e-o-l">Lý: e phút.</li>
+                                   <li class="e-o-l">Sử: g phút.</li>
+                              </ul>
+                              <p>Và Mỗi ngày Hiếu chỉ có T phút để học.</p>
+                         </div>
+                         <div class="text-content">
+                              <p>Hãy giúp Hiếu học được nhiều môn nhất có thể trong thời gian T phút!</p>
+                              <p class="title">Lưu ý:</p>
+                              <ul class="Luuy">
+                                   <li class="e-o-l">Hiếu có nói là: <p style="font-style: italic; display: inline; font-weight: bold;">"nếu tớ đỗ cấp 3 tớ sẽ khao tất cả những ai giúp tớ sắp xếp thời khóa biểu 1 bữa lẩu Thái Pro Vip".</p></li>
+                              </ul>
+                         </div>
+                         <h3 class="title">Dữ liệu vào</h3>
+                         <div class="text-content">
+                              <ul class="Luuy">
+                                   <li class="e-o-l"> dòng đầu tiên: 6 số nguyên dương: a, b, c, d, e, g. Mỗi số cách nhau 1 dấu cách.</li>
+                                   <li class="e-o-l">dòng thứ hai: số nguyên dương T.</li>
+                              </ul>
+                              <div class="title">Giới hạn: </div>
+                              <ul class="Luuy">
+                                   <li class="e-o-l">a, b, c, d, e, g < T < 10^6.</li>
+                              </ul>
+                         </div>
+          
+                         <h3 class="title">Dữ liệu ra</h3>
+                         <div class="text-content">
+                              <ul class="Luuy">
+                                   <li class="e-o-l">1 dòng duy nhất ghi số môn nhiều nhất mà Hiếu học được.</li>
+                              </ul>
+                         </div>
+          
+                         <h3 class="title">Ví dụ</h3>
+                         <div class="text-content" style="display: flex;">
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('input-box')">
+                                        <div class="name-box">input #1</div>
+                                   </div>
+                                   <div class="in-output-box">
+                                        <p>1 1 1 1 2 1</p>
+                                        <p>10</p>
+                                   </div>
+                              </div>
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('output-box')">
+                                        <div class="name-box">output #1</div>
+                                   </div>
+                                   <div class="in-output-box">6</div>
+                              </div>
+                         </div>
+                         <div class="text-content" style="display: flex;">
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('input-box')">
+                                        <div class="name-box">input #1</div>
+                                   </div>
+                                   <div class="in-output-box">
+                                        <p>123 256 121 5995 100 1000 3655</p>
+                                        <p>10000</p>
+                                   </div>
+                              </div>
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('output-box')">
+                                        <div class="name-box">output #1</div>
+                                   </div>
+                                   <div class="in-output-box">5</div>
+                              </div>
+                         </div>
+                         <div class="text-content" style="display: flex;">
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('input-box')">
+                                        <div class="name-box">input #1</div>
+                                   </div>
+                                   <div class="in-output-box">
+                                        <p>2883 46113 454511 523651 99999 123132</p>
+                                        <p>1000000</p>
+                                   </div>
+                              </div>
+                              <div class="in-output">
+                                   <div class="copy-content" onclick="copycontent('output-box')">
+                                        <div class="name-box">output #1</div>
+                                   </div>
+                                   <div class="in-output-box">5</div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="extra-body" style="width: calc(28% - 20px)">
+          <div class="table-content" style="width: 100%;">
+               <div class="title-content">
+                    <div class="item-content" style="font-size: 18px;">
+                         <ion-icon name="help-circle"></ion-icon>
+                    </div>
+                    <div class="name-content">
+                         Thông tin
+                    </div>
+               </div>
+               <div class="body-content">
+                    <ul>
+                         <li>
+                              <div class="title-content">
+                                   <div class="item-content easy">
+                                        <ion-icon name="ellipse"></ion-icon>
+                                   </div>
+                                   <div class="name-content">: Dễ</div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="title-content">
+                                   <div class="item-content normal">
+                                        <ion-icon name="ellipse"></ion-icon>
+                                   </div>
+                                   <div class="name-content">: Trung Bình</div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="title-content">
+                                   <div class="item-content hard">
+                                        <ion-icon name="ellipse"></ion-icon>
+                                   </div>
+                                   <div class="name-content">: Khó</div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="title-content">
+                                   <div class="item-content super-hard">
+                                        <ion-icon name="ellipse"></ion-icon>
+                                   </div>
+                                   <div class="name-content">: Siêu khó</div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="title-content">
+                                   <div class="item-content for-master">
+                                        <ion-icon name="ellipse"></ion-icon>
+                                   </div>
+                                   <div class="name-content">: Mấy bài cho Cao Thủ :D</div>
+                              </div>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </div>
+</div>
+
+     <script src="../JS/main.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
